@@ -13,7 +13,7 @@ import tiktoken
 from openai import OpenAI
 
 # 🔑 Manually input API key
-api_key = "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"
+api_key = ""
 client = OpenAI(api_key=api_key)
 
 # 📁 Set your PDF folder path here
