@@ -16,7 +16,7 @@ st.markdown("Upload a folder of PDFs and ask questions. The assistant will use G
 
 # --- Step 1: Inputs ---
 pdf_folder = st.text_input("📁 Path to PDF folder:", value=r"C:\Users\geeth\Desktop\rohit\RAG")
-api_key = "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"
+api_key = ""
 client = OpenAI(api_key=api_key)
 
 if st.button("📚 Load PDFs and Build Index"):
